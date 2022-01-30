@@ -1,0 +1,41 @@
+from outils import* # Lancer la cellule pour importer les outils nécessaires au notebook.
+# <div style="text-align:center;"><span style="border: 2px solid;padding:6px;color:dodgerblue;">PYTHON : les bases</span></div> #
+
+## <u style="color:red;">I. Découverte…</u> ##
+### <u style="color:green;">1. Un peu d’histoire… :</u> ###
+À la fin des années 1980, le programmeur <strong>Guido van Rossum</strong> participe au développement d’un langage de programmation nommé ABC.<br>
+![alt text](mes_images/guido.png "Guido van Rossum")<br>
+En 1989, il profite d'une semaine pendant les vacances de Noel pour écrire la première version d’un nouveau langage!<br>
+Fan de la série télévisée <u>Monty Python's Flying Circus</u>, il décide de baptiser ce projet <strong>Python</strong>.
+### <u style="color:green;">2. Pourquoi utiliser python?</u> ###
+C'est un langage utilisé dans le <strong>monde scientifique</strong> qui présente de nombreux avantages :
+- il est <strong>libre</strong> et <strong>gratuit</strong>
+
+- <strong>multiplateforme</strong>, c'est-à-dire que les programmes réalisés pourront s'exécuter sous Windows, Mac ou Linux
+
+- Il est <strong>simple</strong>, mais <strong>puissant</strong> et <strong>rapide</strong>.
+
+- Il possède de <strong>nombreuses bibliothèques</strong> très évoluées dans de multiples domaines, notamment dans l'<strong>intelligence artificielle</strong>.
+
+
+### <u style="color:green;">3. Installation de python :</u> ###
+<u>En classe</u>, nous travaillerons :
+- soit sous forme de <strong>jupyter notebook</strong>, pour profiter de l'alternance de cellules de texte et de code.
+
+- soit à l'aide d'un éditeur comme <strong>thonny</strong> : https://thonny.org/
+
+Chez vous, il sera nécessaire d'installer <strong>anaconda</strong> 32 ou 64 bits pour bénéficier des Notebooks.
+## <u style="color:red;">II. Opérations :</u> ##
+• <span style="font-family:Courier New;font-size: 100%;">a + b</span> renvoie la somme <span style="font-family:Courier New;font-size: 100%;">a</span> et <span style="font-family:Courier New;font-size: 100%;">b</span><br>
+• <span style="font-family:Courier New;font-size: 100%;">a – b</span> renvoie la différence de <span style="font-family:Courier New;font-size: 100%;">a</span> et <span style="font-family:Courier New;font-size: 100%;">b</span><br>
+• <span style="font-family:Courier New;font-size: 100%;">a &#42; b</span> renvoie le produit de <span style="font-family:Courier New;font-size: 100%;">a</span> et <span style="font-family:Courier New;font-size: 100%;">b</span><br>
+• <span style="font-family:Courier New;font-size: 100%;">a &#42;&#42; b</span> renvoie <span style="font-family:Courier New;font-size: 100%;">a</span> puissance <span style="font-family:Courier New;font-size: 100%;">b</span><br>
+• <span style="font-family:Courier New;font-size: 100%;">a / b</span> renvoie quotient <strong>décimal</strong> de <span style="font-family:Courier New;font-size: 100%;">a</span> par <span style="font-family:Courier New;font-size: 100%;">b</span>. Ainsi <span style="font-family:Courier New;font-size: 100%;">13 / 5</span> renvoie <span style="font-family:Courier New;font-size: 100%;">2.6</span><br>
+<br>
+⚠️ Le séparateur décimal est le point <strong>"."</strong> et non pas la virgule! Pensez bien à écrire <span style="font-family:Courier New;font-size: 100%;">2.6</span> pour <strong>deux virgule six</strong>.<br>
+<br>
+• <span style="font-family:Courier New;font-size: 100%;">a // b</span> renvoie le quotient <strong>entier</strong> de la division <strong>euclidienne</strong> de l'entier <span style="font-family:Courier New;font-size: 100%;">a</span> par l'entier <span style="font-family:Courier New;font-size: 100%;">b</span>.<br>
+<span style="font-family:Courier New;font-size: 100%;">13 // 5</span> renvoie donc <span style="font-family:Courier New;font-size: 100%;">2</span><br>
+• <span style="font-family:Courier New;font-size: 100%;">a % b</span> qui se lit aussi "<span style="font-family:Courier New;font-size: 100%;">a</span> modulo <span style="font-family:Courier New;font-size: 100%;">b</span>" renvoie le <strong>reste</strong> de la division euclidienne de l'entier <span style="font-family:Courier New;font-size: 100%;">a</span> par l'entier <span style="font-family:Courier New;font-size: 100%;">b</span>. <br>
+Ainsi <span style="font-family:Courier New;font-size: 100%;">13 % 5</span> renvoie <span style="font-family:Courier New;font-size: 100%;">3</span><br>
+![alt text](mes_images/div_eucli.png "modulo")<br>
